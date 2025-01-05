@@ -22,10 +22,9 @@
 
 <h2>🔧Tecnologías utilizadas</h2>
 
-<b>Lenguajes</b>: HTML, CSS y JavaScript Vanilla
-<b>Frameworks</b>: Bootstrap
-<b>Librerías</b>: React
-
+<p><b>Lenguajes</b>: HTML, CSS y JavaScript Vanilla</p>
+<p><b>Frameworks</b>: Bootstrap</p>
+<p><b>Librerías</b>: React</p>
 
 
 
