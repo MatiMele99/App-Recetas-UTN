@@ -25,6 +25,7 @@
 <p><b>Lenguajes</b>: HTML, CSS y JavaScript Vanilla</p>
 <p><b>Frameworks</b>: Bootstrap</p>
 <p><b>Librerías</b>: React</p>
+<p><b>Herramientas de desarrollo</b>: Vite</p>
 
 
 
