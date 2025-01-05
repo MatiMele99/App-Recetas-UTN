@@ -16,7 +16,7 @@
 <h2>Probar aplicación</h2>
 
 <p>Este proyecto está deployado en Vercel y listo para probar:</p>
-<p>Link</p>
+<p>https://app-recetas-utn.vercel.app/</p>
 
 
 
