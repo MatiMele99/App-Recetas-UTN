@@ -1,0 +1,22 @@
+.footer-container {
+    background-color: #E18B00;
+}
+
+.nav {
+    gap: 12px;
+}
+
+.footer-item {
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.footer-item:hover {
+    color: #eeeeee;
+    transition: all 0.2s ease;
+}
+
+.text-center {
+    color: #ffffff;
+}

@@ -1,0 +1,47 @@
+.create-recipe {
+    background-color: #f8e9d0;
+    ;
+    padding-bottom: 30px;
+}
+
+.create-container {
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.name-recipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.name-input {
+    border: 1px solid #d7aa6e;
+    background-color: #f8e9d0;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.save-btn {
+    background-color: #ffe1b9;
+    color: black;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.save-btn:hover {
+    background-color: #E18B00;
+    color: white;
+    transition: all 0.2s ease;
+    font-size: 18px;
+}

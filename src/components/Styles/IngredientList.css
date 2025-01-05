@@ -1,0 +1,142 @@
+/* Estilos generales de tarjeta */
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.checkbox-card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.checkbox-card-body {
+    background-color: #f4f4f4;
+    padding: 16px;
+}
+
+
+
+/* Cabecera de tarjeta */
+.checkbox-card-header {
+    padding: 1rem 1.2rem;
+    background: #E18B00;
+
+}
+
+.checkbox-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+
+
+/* Estilos para categorías */
+.category-title {
+    text-align: center;
+
+}
+
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.ingredient-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+
+
+/* Sección de ingredientes seleccionados */
+.selection-label {
+    cursor: pointer;
+}
+
+.selected-ingredients-container {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.chip {
+    padding: 0.3rem 1rem;
+    background-color: #ffe1b9;
+    border-radius: 0.2rem;
+}
+
+.chip-label {
+    font-size: 0.8rem;
+    color: #000000;
+    margin: 0;
+}
+
+
+
+/* Estilos para cada ingrediente */
+.ingredient-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid hsla(0, 0%, 40%, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px hsl(0, 0%, 0%, 0.3);
+    padding: 25px;
+    margin: 10px;
+    width: 170px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ingredient-card:hover {
+    transform: scale(1.05);
+}
+
+.ingredient-card.selected {
+    border: 3px solid #0bbcdb;
+}
+
+.card-text {
+    color: white;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+/* Estilos para selector de cantidad de ingredientes */
+.quantity-input {
+    margin-top: 0.3rem;
+}
+
+.quantity-input input {
+    width: 60px;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.2rem;
+}

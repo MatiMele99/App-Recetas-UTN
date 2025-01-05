@@ -1,0 +1,17 @@
+.history-container {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.history-title {
+    padding: 20px;
+}
+
+.history-recipes {
+    /* background-color: beige; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 3%;
+}
