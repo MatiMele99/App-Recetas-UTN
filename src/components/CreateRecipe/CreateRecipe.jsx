@@ -40,12 +40,9 @@ const CreateRecipe = () => {
         const updatedRecipes = [...existingRecipes, newRecipe];
 
         // Funcionalidad de guardado de recetas con localStorage
-        // Esta función convierte el arreglo updatedRecipes en un string JSON y almacena el valor
-        // de las recetas con la key 'recipes'
+        // Esta función convierte valores JS a strings JSON, en este caso convirtiendo
+        // los arreglos updatedRecipes e ingredient_data_list
         localStorage.setItem('recipes', JSON.stringify(updatedRecipes));
-
-
-        // Guardar la lista completa de ingredientes en localStorage
         localStorage.setItem('ingredient_data_list', JSON.stringify(IngredientList.ingredient_data_list));
 
         // Confirmar guardado de receta y reseteo de formulario

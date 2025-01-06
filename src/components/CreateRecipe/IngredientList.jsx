@@ -137,7 +137,7 @@ const IngredientList = ({ onIngredientsChange }) => {
                                             </div>
 
                                             <QuantityInput
-                                                value={selectedIngredients[item.id] || 0}
+                                                value={selectedIngredients[item.id] || 1}
                                                 onChange={(quantity) => handleIngredientChange(item.id, quantity)}
                                                 visible={!!selectedIngredients[item.id]}
                                             />

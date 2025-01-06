@@ -22,7 +22,7 @@ const QuantityInput = ({ value, onChange, visible }) => {
             <input
                 type="number"
                 className="form-control text-center"
-                value={value}
+                value={value || 0}
                 onChange={handleInputChange}
                 min="0"
                 aria-label="Cantidad"

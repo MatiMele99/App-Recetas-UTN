@@ -8,13 +8,13 @@ const Footer = () => {
             <footer className="footer-container py-3 my-4">
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3">
                     <li className="nav-item">
-                        <a href="#" className="nav-link footer-item px-2">Inicio</a>
+                        <a href="#home" className="nav-link footer-item px-2">Inicio</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link footer-item px-2">Crear receta</a>
+                        <a href="#create-recipe" className="nav-link footer-item px-2">Crear receta</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link footer-item px-2">Mis recetas</a>
+                        <a href="#my-recipes" className="nav-link footer-item px-2">Mis recetas</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link footer-item px-2">Contacto</a>

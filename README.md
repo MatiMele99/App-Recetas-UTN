@@ -1,5 +1,5 @@
 <h1 align="center" id="title">RecipeSave - Aplicación de guardado de recetas 👨‍🍳</h1>
-<h2>Por Matías Mele Farré</h2>
+<h2 align="center">Por Matías Mele Farré</h2>
 
 <p id="description"><b>RecipeSave</b> es una aplicación para poder guardar recetas de manera simple, con un nombre personalizado, seleccionando ingredientes y enumerando cantidades para cada uno. Esta aplicación es la <b>entrega</b> final del curso de <b>Desarrollo Front End Web</b> del centro de e-learning de la <b>Universidad Tecnológica Nacional</b>.</p>
 
